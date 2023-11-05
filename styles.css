@@ -84,7 +84,8 @@ ul li ul #list-in-list{
 @media (min-width:867px) and (max-width:1025px) {
     .sidebar{
         width: 25%;
-        
+        overflow: scroll;
+        height: 100vh;
     }
     .sidebar h1{
         font-size: 140%;
@@ -100,8 +101,8 @@ ul li ul #list-in-list{
     }
     .sidebar{
         width: 35%;
-        
-        
+        overflow: scroll;
+        height: 100vh;
     }
     .sidebar h1{
         font-size: 140%;
@@ -131,7 +132,7 @@ ul li ul #list-in-list{
         text-decoration: none;
         color: black;
         border-collapse:collapse;
-        padding:14px;
+        padding:0px;
         
         
     }
